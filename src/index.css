@@ -1,0 +1,381 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navbar {
+  background-color: #16171f;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 112px;
+  border-radius: 0px 0px 22px 22px;
+  display: flex;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+}
+h3 {
+  color: black;
+}
+.items-container {
+  margin-left: auto;
+  display: flex;
+  margin-right: 30px;
+}
+.logo-container img {
+  width: 120px;
+  height: 70px;
+}
+.heading-navbar {
+  margin: 53px 0 42px;
+  margin-left: 9px;
+  line-height: 17px;
+
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0;
+  text-align: left;
+}
+.navitem-heading {
+  margin-left: 8px;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0px;
+  display: inline-block;
+  align-content: center;
+}
+
+.nav-item {
+  width: 180px;
+  height: 112px;
+  position: relative;
+  text-decoration: none;
+  color: #c4c5d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group {
+  position: relative;
+  top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+.loginregister {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginregister .loginForm {
+  border-radius: 2px;
+  width: 400px;
+  height: 370px;
+  margin-bottom: 30px;
+  background-color: #ecedf5;
+}
+.loginForm h6,
+.registerForm h6 {
+  color: black;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 44px;
+  margin-top: 0;
+}
+.loginForm .p-inputtext {
+  margin: 15px !important;
+}
+.loginForm .pi-eye {
+  right: 30px !important;
+}
+.loginregister button {
+  margin-top: 50px;
+  border: 1px solid #ff5722;
+  background-color: #ff5722;
+  width: 330px;
+  height: 36px;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.loginregister button:hover {
+  border-radius: 3px;
+  margin-top: 50px;
+  border: 3px solid #181846;
+  background-color: #ff5722;
+  width: 330px;
+  height: 36px;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+.loginregister input {
+  width: 330px;
+  height: 42px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.register {
+  background-color: #ecedf5;
+  margin-top: 30px;
+  width: 400px;
+  height: 92px;
+  display: flex;
+}
+.register i {
+  color: #5f6b8a;
+  width: 60px;
+  height: 60px;
+  justify-content: end;
+}
+.icon {
+  position: relative;
+  bottom: -35px;
+  margin-left: 48px;
+}
+.register p {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5f6b8a;
+}
+.register a {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ff5722;
+}
+.registerLabels {
+  text-align: left;
+  margin-left: 35px;
+}
+
+.registerForm {
+  border-radius: 2px;
+  width: 400px;
+  margin-bottom: 30px;
+  background-color: #ecedf5;
+  height: 450px;
+  margin-top: 90px;
+}
+.registerForm input {
+  margin: 15px;
+}
+.registerForm .pi-eye,
+.pi-eye-slash {
+  right: 30px !important;
+}
+
+.buttons {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  margin-left: auto;
+}
+.p-inputtext {
+  margin-bottom: 20px;
+}
+.emptyProfile h3 {
+  color: #9faec9;
+}
+.emptyProfile Button {
+  background-color: #1a3459;
+}
+.ad {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 10px rgb(18, 18, 23);
+  background-color: rgb(22, 23, 31);
+}
+.ad img {
+  height: 200px;
+}
+.ad h6,
+h5 {
+  margin: 10px;
+}
+
+.editDeleteButtons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.editButton {
+  background-color: #1a3459 !important;
+}
+.deleteButton {
+  background-color: #f5951e !important;
+}
+.saveButton {
+  background-color: #083b2d !important;
+}
+.adContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 150px;
+
+  justify-content: center;
+}
+.ad {
+  min-width: 400px;
+  height: 450px;
+  margin: 12px;
+  box-sizing: border-box;
+  border: 1px solid #f5951e;
+}
+.paginator {
+  margin: 30px 20px;
+}
+.addVehiclePrompt {
+  margin: auto;
+  border-radius: 10px;
+  width: 500px;
+  height: 650px;
+  background-color: #1a3459;
+  margin-bottom: 20px;
+  color: #16171f;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.addVehiclePrompt div {
+  margin: 10px;
+  padding: 10px;
+  background-color: #49494d;
+  border-radius: 20px;
+}
+
+.labelPrice {
+  margin-right: 15px;
+}
+
+.addVehiclePrompt .p-dropdown-label {
+  color: white !important;
+  font-weight: bold;
+  font-size: 18px !important;
+}
+.p-inputnumber-input {
+  text-align: center !important;
+}
+.flex-auto label {
+  margin-right: 10px;
+}
+.p-paginator .p-dropdown-label {
+  background-color: #16171f;
+  color: black;
+}
+.buttonAdd {
+  background-color: #f2931d;
+  width: 150px;
+  height: 80px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid black;
+}
+.buttonAdd:hover {
+  background-color: #de8210;
+}
+.ad label {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 15px;
+}
+.ad input {
+  margin: 14px;
+  font-weight: bold;
+  height: 30px;
+}
+.p-toast {
+  margin-top: 150px !important;
+}
+.adsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.selection {
+  margin-top: 130px;
+  margin-bottom: 10px;
+}
+
+.p-float-label {
+  margin: 15px;
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+.p-inputnumber-input {
+  width: 130px !important;
+  margin: 10px !important;
+}
+.p-float-label label {
+  left: 50px !important;
+}
+.minMax {
+  display: flex;
+}
+.minMaxKilometers {
+  background-color: #181846;
+  padding-top: 20px;
+  border-radius: 25px;
+  margin: 10px;
+}
+.minMaxPrice {
+  background-color: #0d291c !important;
+  padding-top: 20px;
+  margin: 10px;
+  border-radius: 25px;
+}
